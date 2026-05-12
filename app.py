@@ -5,7 +5,7 @@ from openai import OpenAI
 # —————— 配置 AI 模型 ——————
 # 这里可以用任何兼容 OpenAI 格式的大模型
 client = OpenAI(
-    api_key="你的API_KEY",  # 去平台申请
+    api_key="sk-aa36646db4ef4af9901f02c4a56ba7b0",  # 去平台申请
     base_url="https://api.deepseek.com"  # 可替换成其他模型地址
 )
 
