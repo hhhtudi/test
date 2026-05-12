@@ -20,7 +20,7 @@ if st.button("开始计算", type="primary"):
 
     if mode == "等额本息":
         # 等额本息公式
-       month_pay = loan_money * month_rate * (1 + month_rate) ** month / ((1 + month_rate) ** month - 1)
+        month_pay = loan_money * month_rate * (1 + month_rate) ** month / ((1 + month_rate) ** month - 1)
         total_pay = month_pay * month
         total_interest = total_pay - loan_money
 
